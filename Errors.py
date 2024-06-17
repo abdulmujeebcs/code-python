@@ -15,3 +15,5 @@ except ZeroDivisionError:
     print("Average cannot be calculated due to empty grades")
 else:
     print(f"Average of grades is {average}")
+
+# For Custom Error Class just create any class and extend from ValueError and pass in one first line that's it
