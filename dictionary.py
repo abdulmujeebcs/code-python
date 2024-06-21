@@ -1,4 +1,7 @@
-# Dictionary: To associate keys and values together. only strings and integers will be used as key in dictionary.
+""""
+Dictionary: To associate keys and values together. only strings and integers will be used as key in dictionary.
+They are unordered, mutable change value after created & don't allow duplicate values
+"""
 
 friends = [
     {"name": "Rolf", "age": 30},
@@ -26,3 +29,11 @@ print(student_attendance.values())
 my_dictionary = {'a': 1, 'b': 2, 'c': 3}
 items = list(my_dictionary.items())
 print(items)
+"""
+Methods
+myDic.keys()
+myDic.values()
+myDic.items() return all (key, value) pairs as tuples
+myDic.get("Key") return the key according to value
+myDic.update(newDic) insert the specified items into the dictionary
+"""
