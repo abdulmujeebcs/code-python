@@ -10,7 +10,7 @@
 #     # Function logic here
 #     pass
 
-from decorators.auth import require_authentication
+from auth_decorator import require_authentication
 
 
 @require_authentication
@@ -24,3 +24,8 @@ def add(*args):
 
 user = {"name": "John", "is_auth": True}
 print(add(user, 1, 41, 5))
+print(add.__name__) # Debug decorators with functools in decorator function so actual or original reference will be
+# called
+
+# here functools.wraps used due to debug the original function that has been modified by other function which is not
+# even documented so reference should be the original. you can check with this code

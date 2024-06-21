@@ -1,0 +1,19 @@
+
+003 How-to-set-up-VSCode-with-Python
+https://blog.tecladocode.com/how-to-set-up-visual-studio-code-for-python-development/
+https://rest-apis-flask.teclado.com/docs/docker_intro/in_depth_docker_tutorial/
+
+008 Formatting-numbers-for-printing-in-Python
+https://blog.tecladocode.com/python-formatting-numbers-for-printing/
+
+012 Set-operators-Teclado-blog-
+https://blog.teclado.com/python-set-operators/
+
+012 Symmetric-difference-Teclado-blog-
+https://blog.teclado.com/python-symmetric-difference/
+
+012 Sets-30-Days-of-Python-
+https://teclado.com/30-days-of-python/python-30-day-11-sets/
+
+030 Destructuring-in-Python-Teclado-Blog
+https://blog.tecladocode.com/destructuring-in-python/
