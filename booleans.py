@@ -1,3 +1,5 @@
+#In Python, the == operator checks for equality of values, while the is operator checks for object identity.
+
 friends = ["Rolf", "Bob"]
 abroad = ["Rolf", "Bob"]
 
@@ -6,8 +8,12 @@ print("Rolf" in friends)  # in keywords works in tuple, sets, lists and strings.
 # possible number of choices (active, inactive) status tuple
 
 print(friends == abroad)
-print(friends is abroad)  # because memory space is different in abroad due to new list it will True if we initialize
-# it to friends like abroad = friends
+print(friends is abroad)
+
+""""
+== (Equality operator): Checks whether the values of two operands are equal.
+is (Identity operator): Checks whether two operands are the same object in memory.
+"""
 
 # Comparisons: = == != > , <, >=, <=
 

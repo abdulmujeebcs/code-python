@@ -1,6 +1,6 @@
 """"
 Dictionary: To associate keys and values together. only strings and integers will be used as key in dictionary.
-They are unordered, mutable change value after created & don't allow duplicate values
+They are unordered, mutable change value after created & don't allow duplicate keys
 """
 
 friends = [
